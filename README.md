@@ -1,5 +1,3 @@
-Sure! Here's a possible GitHub description for this site:
-
 ---
 
 # Invoice Calculator
