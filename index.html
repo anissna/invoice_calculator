@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TPS/TVQ Invoice Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>TPS/TVQ Invoice Calculator</h1>
+    </header>
+    <main>
+      <div class="container">
+        <table id="invoice-table">
+          <thead>
+            <tr>
+              <th>Invoice Amount</th>
+              <th>TPS</th>
+              <th>TVQ</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><input type="number" class="invoice-amount" /></td>
+              <td class="tps"></td>
+              <td class="tvq"></td>
+            </tr>
+          </tbody>
+        </table>
+        <button id="add-invoice">Add Invoice</button>
+        <button id="calculate">Calculate</button>
+        <button id="delete-all">Delete All</button>
+        <div id="total-container">
+          <p id="total"></p>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; 2023 TPS/TVQ Invoice Calculator</p>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
